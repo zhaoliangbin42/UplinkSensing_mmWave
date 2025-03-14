@@ -1,3 +1,12 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
+%
+%    Description: Parameter configuration for simulation
+%
+%    Tool versions: Matlab 2025a
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % User defined parameters
 Nr       = 24;     % Number of antennas
 Snap_AoA = 50;     % Number of snapshots for Angle of Arrival estimation

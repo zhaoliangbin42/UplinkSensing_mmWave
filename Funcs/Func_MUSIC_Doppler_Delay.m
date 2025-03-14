@@ -1,18 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: lb_zhao_bit_ee@163.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
-%    Description: AoA-Based  algorithm for combined Doppler and delay estimation 
-%                 using known AoAs with frequency smoothing - suitable for 
-%                 both static and dynamic path estimation
+%    Description: AoA-based 2D-FFT-MUSIC (AB2FM) using known AoAs
+%                 with frequency smoothing
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
-%    Last update: 2025-03-04
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [delay_est, doppler_est] = Func_MUSIC_Doppler_Delay(Y_s, sig_param, grid_num, disp_pixel, is_plot, s_title)
-    % FUNC_MUSIC_DOPPLER_DELAY - Performs 2D MUSIC algorithm for joint Doppler-delay estimation
+    % FUNC_MUSIC_DOPPLER_DELAY - Performs AB2FM algorithm for Doppler and delay estimation
     % Inputs:  
     %   Y_s: Received signal matrix (Nr*K x Snap_DD)
     %   sig_param: Structure containing signal parameters
@@ -37,6 +34,7 @@ function [delay_est, doppler_est] = Func_MUSIC_Doppler_Delay(Y_s, sig_param, gri
     % Outputs: 
     %   delay_est: Estimated delays [s]
     %   doppler_est: Estimated Doppler shifts [Hz]
+    
     % Extract parameters from the structure
     Snap_DD    = sig_param.Snap_DD;
     Nr         = sig_param.Nr;

@@ -1,12 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: lb_zhao_bit_ee@163.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
 %    Description: Function for detecting the Line-of-Sight (LoS) path in mmWave communications
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
-%    Last update: 2025-03-03
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [Y_AoA] = Func_Detect_LoS(Y_AoA, sig_param, FFT_length, is_plot)

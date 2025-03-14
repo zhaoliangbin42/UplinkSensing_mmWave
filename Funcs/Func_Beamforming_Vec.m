@@ -1,14 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: lb_zhao_bit_ee@163.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
 %    Description: Beamforming vector generation for mmWave ISAC systems
 %                 with different optimization criteria (Bartlett beamformer,
 %                 SINR-maximizing beamformer, null-space approach, and hybrid approach).
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
-%    Last update: 2025-03-04
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function w_opt = Func_Beamforming_Vec(Y_AoA, sig_param, BF_type, is_plot, rho)

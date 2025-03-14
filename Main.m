@@ -1,12 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: lb_zhao_bit_ee@163.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
-%    Description: Main execution script for mmWave Uplink Sensing simulation.
-%                 Implements path estimation including AoA, Doppler and delay for ISAC systems.
+%    Description: Main execution script.
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
 %    Last update: 2025-03-03
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -27,7 +25,7 @@ L             = Ld + Ls;        % Total number of paths
 EbN0_dB       = 10;             % Signal to noise ratio in dB
 grid_num_AoA  = 1e5;            % Number of grids for AoA estimation
 grid_num_DD   = 2048;           % Number of grids for Doppler-delay estimation
-BF_type       = 'null';         % Beamforming type: 'SINR', 'NULL', 'BART', 'HYBD'
+BF_type       = 'SINR';         % Beamforming type: 'SINR', 'NULL', 'BART', 'HYBD'
 BF_rho        = 0.5;            % Weighting factor for hybrid beamforming
 disp_pixel    = 1024;           % Number of pixels for display, disp_pixel x disp_pixel
 rand('seed', 3);                % Set random seed for reproducibility

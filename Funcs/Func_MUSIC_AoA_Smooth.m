@@ -1,12 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: lb_zhao_bit_ee@163.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
 %    Description: Function for AoA estimation using MUSIC algorithm with frequency smoothing
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
-%    Last update: 2025-03-03
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [Y_AoA] = Func_MUSIC_AoA_Smooth(Y_AoA, sig_param, grid_num, is_plot)

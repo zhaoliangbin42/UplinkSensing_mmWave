@@ -1,13 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: lb_zhao_bit_ee@163.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
 %    Description: Generate data for AB2FM algorithm simulation
 %                 with time offset and carrier frequency offset compensation
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
-%    Last update: 2025-03-04
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function zeta_k = Gen_Y_DD(sig_param, w_ref)

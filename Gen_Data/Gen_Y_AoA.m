@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: lb_zhao_bit_ee@163.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
 %    Description: Generate received signal data for Angle of Arrival (AoA) estimation
 %                 in mmWave Uplink Sensing systems. Models multi-path propagation with
@@ -8,8 +8,6 @@
 %                 timing offsets, and carrier frequency offsets.
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
-%    Last update: 2025-03-03
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function Y_AoA = Gen_Y_AoA(sig_param)

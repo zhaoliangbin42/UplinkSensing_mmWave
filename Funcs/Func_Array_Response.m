@@ -1,14 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Author: Benko
-%    Email: 271330089@qq.com
+%    Author: Liangbin
+%    Email: zhaoliangbin@bit.edu.cn
 %
 %    Description: Function for calculating the array response using FFT
 %                 Used to detect the Line-of-Sight (LoS) path and visualize
 %                 array beam patterns in the angular domain
 %
 %    Tool versions: Matlab 2025a
-%    Affiliation: Beijing Institute of Technology
-%    Last update: 2024/03/03
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function rlt = Func_Array_Response(a, FFT_length, is_plot)
     % This function computes the array response in the angular domain using FFT
