@@ -46,13 +46,13 @@ Note that `L` should be less than `Nr` and `K/2`.
 ## Result Visualization
 
 ### MUSIC Spectrum for AoA Estimation
-![AoA Spectrum](Figs/MUSIC_AoA.svg){width=70%}
+![AoA Spectrum](Figs/MUSIC_AoA.svg)
 
 ### Beam Pattern
-![Beamforming Pattern](Figs/BF_Pattern.svg){width=70%}
+![Beamforming Pattern](Figs/BF_Pattern.svg)
 
 ### 2D-MUSIC Spectrum for Doppler-Delay Estimation
-![Doppler-Delay Spectrum](Figs/AB2FM.svg){width=70%}
+![Doppler-Delay Spectrum](Figs/AB2FM.svg)
 
 ## Citation
 
